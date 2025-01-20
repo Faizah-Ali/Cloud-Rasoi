@@ -1,81 +1,79 @@
-# Cloud Rasoi | Full-Stack Food Delivery Web Application
+# **Cloud Rasoi | Full-Stack Food Delivery Web Application**
 
-## Overview
+## **Overview**
 Cloud Rasoi is a feature-rich full-stack food delivery web application designed to streamline food ordering and delivery services. It connects customers, restaurants, and delivery personnel on a unified platform, delivering an enhanced user experience and supporting global stakeholders with efficient processes and reliable solutions.
 
 ---
 
-## Key Features
+## **Key Features**
 
-### Customer Engagement
-- **Personalized Dashboards**: Displays restaurant menus, order history, and real-time order tracking.
-- **Dynamic Search and Filters**: Enables users to search and filter by cuisines, locations, and dietary preferences.
-- **Feedback System**: Integrated feedback mechanism for customers to review and rate their experiences.
-- **Secure Login and Registration**: User-friendly authentication system with password hashing for secure access.
+### **Customer Engagement**
+- **Personalized Dashboards**: Displays restaurant menus, order history, and live order tracking for easy access.
+- **Dynamic Search and Filters**: Users can explore cuisines, locations, and dietary preferences with enhanced search capabilities.
+- **Feedback Mechanism**: Allows customers to rate and review restaurants and delivery experiences, fostering continuous improvement.
+- **Secure Authentication**: Implements password hashing to ensure secure and user-friendly login and registration.
 
-### Restaurant Management
-- **Admin Panel**: Allows restaurant owners to manage menus, update availability, and track order statuses.
-- **Menu Management**: Restaurants can add, edit, or remove items with ease, ensuring up-to-date offerings.
-- **Real-Time Analytics**: Provides insights into sales performance, popular dishes, and user preferences.
+### **Restaurant Management**
+- **Admin Panel**: Provides restaurant owners with tools to manage menus, track order statuses, and update availability in real time.
+- **Menu Management**: Simple interface to add, edit, or remove items, ensuring up-to-date offerings.
+- **Data Insights**: Analytics dashboard provides insights into sales trends, user preferences, and popular dishes.
 
-### Delivery Tracking
-- **Interactive Maps**: Real-time tracking of delivery personnel for users and restaurants.
-- **Automated Notifications**: Sends updates on order status, estimated delivery times, and delays.
-- **Delivery Personnel Dashboard**: Enables delivery agents to manage assigned orders and update statuses.
+### **Delivery Tracking**
+- **Interactive Maps**: Real-time tracking of delivery agents visible to customers and restaurants.
+- **Automated Notifications**: Instant updates about order statuses, estimated delivery times, and delays.
+- **Delivery Personnel Dashboard**: Allows delivery agents to view and manage assigned orders efficiently.
 
 ---
 
-## Technical Implementation
+## **Technical Implementation**
 
-### Frontend
-- **Framework**: Built using **React.js** for a responsive and intuitive user interface.
-- **Design**: Leveraged **CSS3** and **Bootstrap** to create an attractive and consistent design.
+### **Frontend**
+- **Framework**: Built using **React.js**, ensuring responsive and user-friendly interfaces.
+- **UI/UX Design**: Designed using **CSS3**, **Bootstrap**, and **Figma** for visually appealing and consistent user interfaces.
 - **Features**:
-  - Dynamic components for dashboards and forms.
   - Client-side routing with **React Router** for seamless navigation.
-  - State management with **React Hooks** to handle user interactions efficiently.
+  - Dynamic components and forms with **React Hooks** for efficient state management.
 
-### Backend
-- **Framework**: Developed using **Node.js** and **Express.js** to handle server-side logic.
-- **APIs**: Created RESTful APIs for data communication between frontend and backend.
-- **Authentication**: Secure user authentication system with role-based access for customers, restaurants, and admins.
-- **Order Management**: Backend handles order lifecycle from placement to delivery, ensuring smooth workflows.
+### **Backend**
+- **Framework**: Developed using **Node.js** and **Express.js**, ensuring robust server-side logic.
+- **RESTful APIs**: Facilitates communication between the frontend and backend for order processing and data retrieval.
+- **Authentication**: Role-based access control (RBAC) with hashed passwords for secure login.
 
-### Database
-- **Structure**: Designed a structured schema to manage customers, restaurants, menus, orders, and delivery personnel.
-- **Data Security**: Ensured data security and integrity with encryption techniques and efficient query handling.
-- **Data Relationships**: Optimized relationships between entities to enable efficient CRUD operations.
+### **Database**
+- **Structure**: Designed a normalized relational database schema using **MySQL** for managing customers, restaurants, menus, orders, and delivery agents.
+- **Security**: Applied encryption and SQL query optimization for secure and reliable data handling.
+- **Relationships**: Optimized entity relationships to streamline CRUD operations.
 
-### Performance Optimization
-- **API Optimization**: Reduced latency by optimizing API calls and database queries.
-- **Caching**: Implemented caching mechanisms for frequently accessed data.
-- **Responsive Design**: Optimized UI for seamless experiences across devices, including desktops, tablets, and smartphones.
-- **Load Testing**: Conducted stress tests to ensure reliability under high traffic conditions.
-
----
-
-## Impact
-- **Customer Engagement**: Increased by **30%**, resulting in higher satisfaction and retention rates.
-- **Scalable Solutions**: Supported stakeholders worldwide with efficient, reliable solutions.
-- **High Performance**: Delivered a robust platform capable of handling high traffic with minimal downtime.
+### **Performance Optimization**
+- **API Efficiency**: Minimized latency through optimized database queries and API endpoints.
+- **Caching**: Implemented caching strategies to speed up frequently accessed data.
+- **Responsive Design**: Fully responsive UI to provide seamless experiences across all devices.
+- **Stress Testing**: Conducted load testing to ensure reliability under high traffic.
 
 ---
 
-## Outcomes
-Cloud Rasoi is an innovative and user-centric solution for the food delivery industry. It demonstrates expertise in:
-- Full-stack development using **React.js**, **Node.js**, and **Express.js**.
-- Building scalable, efficient web applications.
-- Creating intuitive UI/UX designs.
-- Developing robust and secure backend systems.
-- Leveraging data insights to enhance user experiences.
+## **Impact**
+- Increased customer engagement by **30%**, improving satisfaction and retention rates.
+- Delivered a scalable solution supporting global users with minimal downtime.
+- Enhanced platform reliability and performance, ensuring a seamless user experience.
 
 ---
 
-## Installation
+## **Outcomes**
+Cloud Rasoi stands as an innovative solution in the food delivery industry, showcasing expertise in:
+- Full-stack development with **React.js**, **Node.js**, **Express.js**, and **MySQL**.
+- Scalable architecture and secure authentication systems.
+- User-centric designs focusing on usability and intuitive interfaces.
+- Leveraging analytics and performance insights for continuous improvement.
 
-### Prerequisites
-- **Node.js**: Ensure Node.js is installed on your machine.
-- **Package Manager**: Use npm or yarn for dependency management.
+---
+
+## **Installation**
+
+### **Prerequisites**
+- **Node.js**: Download and install from [Node.js Official Website](https://nodejs.org/).
+- **npm**: Installed automatically with Node.js.
+- **Git**: Ensure Git is installed for cloning the repository.
 
 ### Steps
 1. **Clone the Repository**
