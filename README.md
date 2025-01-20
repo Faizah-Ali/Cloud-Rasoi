@@ -1,152 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cloud Rasoi</title>
-</head>
-<body>
-    <h1>Cloud Rasoi</h1>
-    <h3>"Ghar Jaisa Khana, Cloud Rasoi Se Hi Mangana"</h3>
+# Getting Started with Create React App
 
-    <h2>Project Overview</h2>
-    <p>
-        Cloud Rasoi is a web application designed to provide home-like food to customers by connecting them with local caterers or confectioners. It aims to make ordering simple, efficient, and accessible, ensuring quality food is delivered to your doorstep. The platform bridges the gap between food providers and those seeking hygienic, home-cooked meals.
-    </p>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-    <h2>Core Uses of the Project</h2>
-    <ul>
-        <li>
-            <strong>For Customers:</strong>
-            <ul>
-                <li>Browse a variety of home-style meals from different caterers.</li>
-                <li>Place orders effortlessly through a user-friendly interface.</li>
-                <li>Track orders and receive timely updates on delivery status.</li>
-                <li>Access reviews and ratings of caterers for informed decision-making.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>For Caterers:</strong>
-            <ul>
-                <li>Manage menu items and availability efficiently.</li>
-                <li>Receive and process orders seamlessly.</li>
-                <li>Expand reach by connecting with a broader customer base.</li>
-                <li>Track business performance through detailed analytics.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>For Admins:</strong>
-            <ul>
-                <li>Oversee platform operations and ensure smooth transactions.</li>
-                <li>Monitor user activity and manage disputes if any arise.</li>
-                <li>Ensure data security and system reliability on cloud infrastructure.</li>
-            </ul>
-        </li>
-    </ul>
+## Available Scripts
 
-    <h2>Table of Contents</h2>
-    <ul>
-        <li><a href="#modules">Modules</a></li>
-        <li><a href="#technical-design">Technical Design</a></li>
-        <li><a href="#requirements">Hardware and Software Requirements</a></li>
-        <li><a href="#technology-stack">Technology Stack</a></li>
-        <li><a href="#usage">Usage</a></li>
-        <li><a href="#contributors">Contributors</a></li>
-    </ul>
+In the project directory, you can run:
 
-    <h2 id="modules">Modules</h2>
-    <ul>
-        <li><strong>Customer:</strong> End-users who browse and place food orders.</li>
-        <li><strong>Confectioner (Caterers):</strong> Vendors providing home-style food services.</li>
-        <li><strong>Admin:</strong> Manages platform operations and user data.</li>
-    </ul>
+### `npm start`
 
-    <h2 id="technical-design">Technical Design</h2>
-    <ul>
-        <li><strong>Use Case Diagram:</strong> Depicts interactions between customers, caterers, and the system.</li>
-        <li><strong>Architecture Design:</strong> Provides a blueprint of the system structure.</li>
-        <li><strong>Data Flow Diagram:</strong> Shows the flow of data between different modules and the database.</li>
-    </ul>
-<h2 id="requirements">Hardware and Software Requirements</h2>
-    <h3>Developer Side</h3>
-    <ul>
-        <li>Hardware:
-            <ul>
-                <li>Minimum i3 Processor</li>
-                <li>4GB RAM</li>
-                <li>1TB Storage</li>
-            </ul>
-        </li>
-        <li>Software:
-            <ul>
-                <li>Node.js</li>
-                <li>ReactJS</li>
-                <li>Code Editor (e.g., VS Code)</li>
-                <li>Operating System</li>
-                <li>Git</li>
-                <li>MySQL</li>
-            </ul>
-        </li>
-    </ul>
-    <h3>User Side</h3>
-    <ul>
-        <li>Hardware:
-            <ul>
-                <li>Minimum i3 Processor or Latest OS</li>
-                <li>4GB RAM</li>
-                <li>Reliable Internet or Wi-Fi Connection</li>
-            </ul>
-        </li>
-        <li>Software:
-            <ul>
-                <li>Web Browser Compatibility</li>
-                <li>JavaScript Support</li>
-            </ul>
-        </li>
-    </ul>
-    <h3>Cloud Side</h3>
-    <ul>
-        <li>Hardware:
-            <ul>
-                <li>Compute Resources (CPU, RAM, VMs)</li>
-                <li>Storage for Files and Database</li>
-            </ul>
-        </li>
-        <li>Software:
-            <ul>
-                <li>Operating System (Linux for AWS Hosting)</li>
-                <li>Node.js</li>
-                <li>MySQL</li>
-            </ul>
-        </li>
-    </ul>
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-    <h2 id="technology-stack">Technology Stack</h2>
-    <ul>
-        <li><strong>Frontend:</strong> ReactJS for a responsive user interface.</li>
-        <li><strong>Backend:</strong> Node.js for business logic and server operations.</li>
-        <li><strong>Database:</strong> MySQL for storing and managing application data.</li>
-        <li><strong>Cloud Hosting:</strong> AWS for scalable hosting and resource management.</li>
-    </ul>
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-    <h2 id="usage">Usage</h2>
-    <ol>
-        <li>Install all dependencies using <code>npm install</code>.</li>
-        <li>Set up the database using the provided SQL file.</li>
-        <li>Configure the <code>.env</code> file with the appropriate database and environment details.</li>
-        <li>Run the backend server using <code>node server.js</code>.</li>
-        <li>Start the React frontend using <code>npm start</code>.</li>
-        <li>Access the application via the web browser and begin exploring the services.</li>
-    </ol>
+### `npm test`
 
-    <h2 id="contributors">Contributors</h2>
-    <ul>
-        <li>Muskan Lalwani</li>
-        <li>Aadil Al Hussain</li>
-        <li>Anand Varshney</li>
-        <li>Faizah Ali</li>
-        <li>Harsh Tripathi</li>
-        <li>Pakhi Varshney</li>
-    </ul>
-</body>
-</html>
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
