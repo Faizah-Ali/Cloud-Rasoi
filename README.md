@@ -1,7 +1,152 @@
-Cloud Rasoi - Bridging the Gap Between Customers and Local Tiffin Services, Cloud Kitchens
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Rasoi</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Cloud Rasoi</h1>
+    <h3 style="text-align: center;">"Ghar Jaisa Khana, Cloud Rasoi Se Hi Mangana"</h3>
 
-In today's fast-paced world, the demand for convenient, high-quality, and diverse food options is at an all-time high. Traditional dining establishments are increasingly being supplemented by innovative food delivery solutions that cater to the evolving preferences of consumers. "Cloud Rasoi" emerges as a pioneering online food delivery app designed to bridge the gap between customers and local tiffin services and cloud kitchens, revolutionizing the way people access and enjoy their meals. Cloud Rasoi addresses the growing need for a platform that offers not only convenience but also a wide variety of meal choices tailored to individual dietary preferences and lifestyles. By connecting customers with local tiffin services and cloud kitchens, Cloud Rasoi provides an array of freshly prepared, nutritious meals that cater to diverse tastes and nutritional requirements. Whether one is seeking traditional home-cooked meals, healthy diet plans, or gourmet cuisine, Cloud Rasoi ensures that quality and satisfaction are always at the forefront.
+    <h2>Project Overview</h2>
+    <p>
+        Cloud Rasoi is a web application designed to provide home-like food to customers by connecting them with local caterers or confectioners. It aims to make ordering simple, efficient, and accessible, ensuring quality food is delivered to your doorstep. The platform bridges the gap between food providers and those seeking hygienic, home-cooked meals.
+    </p>
 
-Cloud Rasoi is more than just a food delivery app; it is a platform that redefines convenience and quality in the food service industry. By seamlessly connecting customers with local culinary talents, Cloud Rasoi ensures that every meal is a delightful and satisfying experience. The app is poised to set new standards in the food delivery market, emphasizing customer satisfaction, operational excellence, and sustainable growth.
+    <h2>Core Uses of the Project</h2>
+    <ul>
+        <li>
+            <strong>For Customers:</strong>
+            <ul>
+                <li>Browse a variety of home-style meals from different caterers.</li>
+                <li>Place orders effortlessly through a user-friendly interface.</li>
+                <li>Track orders and receive timely updates on delivery status.</li>
+                <li>Access reviews and ratings of caterers for informed decision-making.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>For Caterers:</strong>
+            <ul>
+                <li>Manage menu items and availability efficiently.</li>
+                <li>Receive and process orders seamlessly.</li>
+                <li>Expand reach by connecting with a broader customer base.</li>
+                <li>Track business performance through detailed analytics.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>For Admins:</strong>
+            <ul>
+                <li>Oversee platform operations and ensure smooth transactions.</li>
+                <li>Monitor user activity and manage disputes if any arise.</li>
+                <li>Ensure data security and system reliability on cloud infrastructure.</li>
+            </ul>
+        </li>
+    </ul>
 
-In conclusion, Cloud Rasoi represents a significant leap forward in online food delivery, offering a comprehensive and customer-centric solution that meets the modern consumer's demands for variety, quality, and convenience. Through continuous innovation and strategic partnerships, Cloud Rasoi aims to become the go-to platform for all food delivery needs, enriching the culinary landscape and enhancing the dining experience for all.
+    <h2>Table of Contents</h2>
+    <ul>
+        <li><a href="#modules">Modules</a></li>
+        <li><a href="#technical-design">Technical Design</a></li>
+        <li><a href="#requirements">Hardware and Software Requirements</a></li>
+        <li><a href="#technology-stack">Technology Stack</a></li>
+        <li><a href="#usage">Usage</a></li>
+        <li><a href="#contributors">Contributors</a></li>
+    </ul>
+
+    <h2 id="modules">Modules</h2>
+    <ul>
+        <li><strong>Customer:</strong> End-users who browse and place food orders.</li>
+        <li><strong>Confectioner (Caterers):</strong> Vendors providing home-style food services.</li>
+        <li><strong>Admin:</strong> Manages platform operations and user data.</li>
+    </ul>
+
+    <h2 id="technical-design">Technical Design</h2>
+    <ul>
+        <li><strong>Use Case Diagram:</strong> Depicts interactions between customers, caterers, and the system.</li>
+        <li><strong>Architecture Design:</strong> Provides a blueprint of the system structure.</li>
+        <li><strong>Data Flow Diagram:</strong> Shows the flow of data between different modules and the database.</li>
+    </ul>
+<h2 id="requirements">Hardware and Software Requirements</h2>
+    <h3>Developer Side</h3>
+    <ul>
+        <li>Hardware:
+            <ul>
+                <li>Minimum i3 Processor</li>
+                <li>4GB RAM</li>
+                <li>1TB Storage</li>
+            </ul>
+        </li>
+        <li>Software:
+            <ul>
+                <li>Node.js</li>
+                <li>ReactJS</li>
+                <li>Code Editor (e.g., VS Code)</li>
+                <li>Operating System</li>
+                <li>Git</li>
+                <li>MySQL</li>
+            </ul>
+        </li>
+    </ul>
+    <h3>User Side</h3>
+    <ul>
+        <li>Hardware:
+            <ul>
+                <li>Minimum i3 Processor or Latest OS</li>
+                <li>4GB RAM</li>
+                <li>Reliable Internet or Wi-Fi Connection</li>
+            </ul>
+        </li>
+        <li>Software:
+            <ul>
+                <li>Web Browser Compatibility</li>
+                <li>JavaScript Support</li>
+            </ul>
+        </li>
+    </ul>
+    <h3>Cloud Side</h3>
+    <ul>
+        <li>Hardware:
+            <ul>
+                <li>Compute Resources (CPU, RAM, VMs)</li>
+                <li>Storage for Files and Database</li>
+            </ul>
+        </li>
+        <li>Software:
+            <ul>
+                <li>Operating System (Linux for AWS Hosting)</li>
+                <li>Node.js</li>
+                <li>MySQL</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2 id="technology-stack">Technology Stack</h2>
+    <ul>
+        <li><strong>Frontend:</strong> ReactJS for a responsive user interface.</li>
+        <li><strong>Backend:</strong> Node.js for business logic and server operations.</li>
+        <li><strong>Database:</strong> MySQL for storing and managing application data.</li>
+        <li><strong>Cloud Hosting:</strong> AWS for scalable hosting and resource management.</li>
+    </ul>
+
+    <h2 id="usage">Usage</h2>
+    <ol>
+        <li>Install all dependencies using <code>npm install</code>.</li>
+        <li>Set up the database using the provided SQL file.</li>
+        <li>Configure the <code>.env</code> file with the appropriate database and environment details.</li>
+        <li>Run the backend server using <code>node server.js</code>.</li>
+        <li>Start the React frontend using <code>npm start</code>.</li>
+        <li>Access the application via the web browser and begin exploring the services.</li>
+    </ol>
+
+    <h2 id="contributors">Contributors</h2>
+    <ul>
+        <li>Muskan Lalwani</li>
+        <li>Aadil Al Hussain</li>
+        <li>Anand Varshney</li>
+        <li>Faizah Ali</li>
+        <li>Harsh Tripathi</li>
+        <li>Pakhi Varshney</li>
+    </ul>
+</body>
+</html>
