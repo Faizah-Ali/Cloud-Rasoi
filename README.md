@@ -6,8 +6,8 @@
     <title>Cloud Rasoi</title>
 </head>
 <body>
-    <h1 style="text-align: center;">Cloud Rasoi</h1>
-    <h3 style="text-align: center;">"Ghar Jaisa Khana, Cloud Rasoi Se Hi Mangana"</h3>
+    <h1>Cloud Rasoi</h1>
+    <h3>"Ghar Jaisa Khana, Cloud Rasoi Se Hi Mangana"</h3>
 
     <h2>Project Overview</h2>
     <p>
